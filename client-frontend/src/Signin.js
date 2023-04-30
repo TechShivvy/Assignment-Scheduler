@@ -28,7 +28,7 @@ function EntryPage() {
     }
 
     axios
-      .post("http://localhost:5000/user/signup", {
+      .post("https://login-gwub.onrender.com/user/signup", {
         name,
         email,
         password,
@@ -51,7 +51,7 @@ function EntryPage() {
   const handleLogin = (event) => {
     event.preventDefault();
     axios
-      .post("http://localhost:5000/user/signin", { email, password })
+      .post("https://login-gwub.onrender.com/user/signin", { email, password })
       .then((response) => {
         if (response.data.status === "SUCCESS") {
           setMessage(response.data.message);
