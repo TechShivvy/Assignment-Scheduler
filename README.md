@@ -4,15 +4,15 @@ READ.ME
 
 This project is a web application with backend APIs for managing off-hours, appointments, and free slots. The application includes a complete signup/login system with email verification.
 
-# Getting Started
+## Getting Started
 
-To use this application, you can access the web application via this link: https://nbyula.onrender.com/
+To use this application, you can access the web application via this link: [https://nbyula.onrender.com/](https://nbyula.onrender.com/)
 
-# Backend APIs
+## Backend APIs
 
 The backend of the application includes the following APIs:
 
-# Add off-hours
+## Add off-hours
 
 Remove off-hours
 Fix appointments
@@ -20,17 +20,17 @@ Get free slots
 Signup and Login
 The signup and login system includes the following steps:
 
-# Signup
+## Signup
 
 1.Check Mail
 2.Click to verify
 3.Login
 
-# API Testing
+## API Testing
 
 The Postman link for API testing (or similar service) will be added soon.
 
-# Disclaimer
+## Disclaimer
 
 The frontend of the application is not yet functional due to the limited amount of time given.
 
